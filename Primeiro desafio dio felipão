@@ -1,0 +1,29 @@
+let heroi = "Ragnar"
+let pontosXp = 100000
+
+if(pontosXp <=1000 ) {
+nivelDoHeroi = "Ferro";
+
+}else if (pontosXp >= 1001 && pontosXp <= 2000 ) {
+nivelDoHeroi = "Bronze";   
+
+}else if (pontosXp >= 2001 && pontosXp <= 5000 ) {
+nivelDoHeroi = "Prata"; 
+
+}else if (pontosXp >= 6001 && pontosXp <= 7000 ) {
+nivelDoHeroi = "Ouro";
+
+}else if (pontosXp >= 7001 && pontosXp <= 8000 ) {
+nivelDoHeroi = "Platina";
+
+}else if (pontosXp >= 8001 && pontosXp <= 9000 ) {
+nivelDoHeroi = "Ascendente";
+
+}else if (pontosXp >= 9001 && pontosXp <= 10000 ) {
+nivelDoHeroi = "Imortal";
+
+}else {
+nivelDoHeroi = "Radiante";
+}
+
+console.log("O heroi " + heroi + " esta no nivel " + nivelDoHeroi)
